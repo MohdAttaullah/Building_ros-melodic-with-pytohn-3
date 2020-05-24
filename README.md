@@ -10,7 +10,7 @@ Familiar with the Linux command line, a shell like bash, and an editor like vim
 Remove all things python2 (Optional)
 This step is optional, but I recommend it to have a clean build. Any other system packages that are removed can be reinstalled later by following the instructions here. So, to remove all python2 packages, execute the following on the command line:
 
-sudo apt-get remove python-*
+```sudo apt-get remove python-*```
 
 Remove any previous installations of ROS
 It’s probably a good idea to remove any previous versions of ROS. So, for example, to remove a default melodic install, execute the following in a shell:
