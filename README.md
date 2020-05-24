@@ -12,7 +12,7 @@ This step is optional, but I recommend it to have a clean build. Any other syste
 
 ```sudo apt-get remove python-*```
 
-# Remove any previous installations of ROS
+## Remove any previous installations of ROS
 It’s probably a good idea to remove any previous versions of ROS. So, for example, to remove a default melodic install, execute the following in a shell:
 
 ```
