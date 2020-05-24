@@ -15,9 +15,11 @@ This step is optional, but I recommend it to have a clean build. Any other syste
 Remove any previous installations of ROS
 It’s probably a good idea to remove any previous versions of ROS. So, for example, to remove a default melodic install, execute the following in a shell:
 
-```sudo apt-get remove ros-*
+```
+sudo apt-get remove ros-*
 sudo apt-get remove ros-melodic-*
-sudo apt-get autoremove```
+sudo apt-get autoremove
+```
 
 Setup Python3 dependencies
 Since we will be building ROS Melodic from source to support python3, we need to install several dependencies.
